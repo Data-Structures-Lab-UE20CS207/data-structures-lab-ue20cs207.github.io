@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Data Structures Lab Assignments - UE20CS202
+title: Data Structures Lab Assignments - UE20CS207
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  An assignments landing page for the Data Structures Lab course UE20CS202.
+  An assignments landing page for the Data Structures Lab course UE20CS207.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Data-Structures-Lab-UE20CS207
