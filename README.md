@@ -1,6 +1,6 @@
 # Assignments Site
 
-Assignments home page for the Data Structures Lab course - UE20CS207
+Assignments home page for the Data Structures course - UE20CS202/207
 
 ## Setting up the environment
 
