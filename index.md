@@ -4,9 +4,11 @@
 
 layout: home
 list_title: Assignments
+title: Home
 ---
 
 # Data Structures - UE20CS202
+{: .page-heading}
 
 Welcome to the landing page for the Data Structures course UE20CS202. Here you will find all the relevant information about the course and assignments, as well as some helpful links and resources.
 
