@@ -33,9 +33,9 @@ github_username:  Data-Structures-UE20CS202
 permalink: /:categories/:title/
 
 # Build settings
-theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+remote_theme: jekyll/minima
 
 # Exclude from processing.
 # The following items will not be processed, by default.
