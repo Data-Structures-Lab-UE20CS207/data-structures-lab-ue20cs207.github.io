@@ -19,7 +19,7 @@ Welcome to the landing page for the Data Structures Lab course UE20CS207. Here y
 ## Prerequisites
 {: .post-list-heading }
 
-Before starting any lab assignments, please follow the steps shown [here]({{ site.baseurl }} {% link setup-students.md -%}) to create a GitHub account with your PES institution email IDs. **This step is mandatory**, as we will not be able to grade you without your SRNs.
+Before starting any lab assignments, please follow the steps shown [here]({{ site.baseurl }} {% link setup.md -%}) to create a GitHub account with your PES institution email IDs. **This step is mandatory**, as we will not be able to grade you without your SRNs.
 
 &nbsp;
 &nbsp;
