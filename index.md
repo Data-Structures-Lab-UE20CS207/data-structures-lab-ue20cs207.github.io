@@ -7,10 +7,10 @@ list_title: Assignments
 title: Home
 ---
 
-# Data Structures - UE20CS202
+# Data Structures Lab - UE20CS207
 {: .page-heading}
 
-Welcome to the landing page for the Data Structures course UE20CS202. Here you will find all the relevant information about the course and assignments, as well as some helpful links and resources.
+Welcome to the landing page for the Data Structures Lab course UE20CS207. Here you will find all the relevant information about the course and lab assignments, as well as some helpful links and resources.
 
 &nbsp;
 &nbsp;
@@ -19,7 +19,7 @@ Welcome to the landing page for the Data Structures course UE20CS202. Here you w
 ## Prerequisites
 {: .post-list-heading }
 
-Before starting any assignments, please follow the steps shown [here]({{ site.baseurl }} {% link setup-github.md -%}) to create a GitHub account with your PES institution email IDs. **This step is mandatory**, as we will not be able to grade you without your SRNs.
+Before starting any lab assignments, please follow the steps shown [here]({{ site.baseurl }} {% link setup-students.md -%}) to create a GitHub account with your PES institution email IDs. **This step is mandatory**, as we will not be able to grade you without your SRNs.
 
 &nbsp;
 &nbsp;

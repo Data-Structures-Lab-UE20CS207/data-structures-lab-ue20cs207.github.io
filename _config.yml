@@ -18,23 +18,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Data Structures - UE20CS202
+title: Data Structures Lab - UE20CS207
 authors: 
   - name: Vibha
     email: vibha@pesu.pes.edu
   - name: Vishruth
     email: vishruth@pesu.pes.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  An assignments landing page for the Data Structures course UE20CS202.
+  A landing page for the Data Structures Lab course UE20CS207.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Data-Structures-UE20CS202
+github_username:  Data-Structures-Lab-UE20CS207
 
 permalink: /:categories/:title/
 
 # Build settings
 plugins:
   - jekyll-feed
+
+markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
