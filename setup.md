@@ -16,7 +16,7 @@ permalink: /setup/
 
 ## Setup for Students
 
-### Step 1: Setting up your GitHub accounts with PES email IDs
+### Step 1: Setting up your GitHub accounts with PES email IDs (optional)
 
 1. Create a [GitHub](https://github.com){:target="_blank"} Account with your MS Teams college email address (your email ID will be of the form **\<SRN\>@pesuonline.onmicrosoft.com** - check [PESU Academy](https://www.pesuacademy.com/Academy/){:target="_blank"} if you have forgotten)
 
@@ -30,9 +30,15 @@ permalink: /setup/
 
 1. For every assignment released, you will be given a GitHub classroom link.
 
-2. Click on the link and accept the assignment.
+2. Click on the link.
 
-3. You will be asked to identify youself from a list of your SRNs. **Please do not skip this step**, as it is mandatory to link your GitHub account to your SRN.
+3. You will be asked to identify youself from a list of your SRNs. **Please do not skip this step**, as it is mandatory to link your GitHub account to your SRN. If this step is skipped, you will not be graded.
+
+    <img src="/assets/images/Student_pov.png" alt="Student_pov" style="zoom:30%; display: block; margin-left: auto;  margin-right: auto;" />
+
+4. Accept the assignment.
+
+    <img src="/assets/images/Student_accept.png" alt="Student_accept" style="zoom:30%; display: block; margin-left: auto;  margin-right: auto;" />
 
 &nbsp;
 &nbsp;
