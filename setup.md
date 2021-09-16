@@ -16,7 +16,7 @@ permalink: /setup/
 
 ## Setup for Students
 
-### Setting up your GitHub accounts with PES email IDs
+### Step 1: Setting up your GitHub accounts with PES email IDs
 
 1. Create a [GitHub](https://github.com){:target="_blank"} Account with your MS Teams college email address (your email ID will be of the form **\<SRN\>@pesuonline.onmicrosoft.com** - check [PESU Academy](https://www.pesuacademy.com/Academy/){:target="_blank"} if you have forgotten)
 
@@ -26,7 +26,7 @@ permalink: /setup/
 
 3. Verify your account by checking your [email](https://outlook.office365.com){:target="_blank"} for the launch code
 
-### Joining a Classroom
+### Step 2: Joining a Classroom
 
 1. For every assignment released, you will be given a GitHub classroom link.
 
@@ -81,3 +81,72 @@ Follow these steps if the TA's have not created a classroom for a section. If th
 
 ### Step 3: Creating an Assignment
 {: #create-assignment}
+
+#### Create template repository with starter code
+
+1. The first step is to create a template repository on GitHub with the template code for the assignment. To do that, go to the organisation's homepage [here](https://github.com/Data-Structures-Lab-UE20CS207) and create a new repository.
+
+    Once you have created your template code, push it to any public GitHub repository (or a repository on the organisation; preferable). This can be done by running 
+
+    ```bash
+    git init
+    git branch -m main
+    git remote add origin <repo_url>
+    ```
+
+    Verify that the remote has been added by running
+    
+    ```bash
+    git remote -v
+    ```
+
+    Commit and push the changes to the remote repo (after pulling)
+
+    ```bash
+    git pull origin main
+    git add .
+    git commit -m "Your commit message"
+    git pish origin main
+    ```
+
+    Note that any testing scripts that are on the repository will not be hidden frm the students, and will be considered to be sample test cases.
+
+2. Convert the repository with the template code into a template repository. Go to the repository on GitHub and click on the settings tab. If you can't see settings, click on the three dots.
+
+    <img src="/assets/images/GitHub_settings.png" alt="GitHub_settings" style="zoom:30%; display: block; margin-left: auto;  margin-right: auto;" />
+
+    Go to the Options tab, and select the checkbox for "Template repository".
+
+    <img src="/assets/images/GitHub_template.png" alt="GitHub_template" style="zoom:30%; display: block; margin-left: auto;  margin-right: auto;" />
+
+#### Create assignment on GitHub Classroom
+
+1. Go to GitHub classroom and click on "Create an assignment". Give it an appropriate title, deadline, and select "Individual assignment". **Ensure that you select Private for Repository visibility**, as failing to do so will allow the students' code to be publicly visible. Do not grant students admin access to their repositories.
+
+    <img src="/assets/images/GitHub_classroom_basics.png" alt="GitHub_classroom_basics" style="zoom:30%; display: block; margin-left: auto;  margin-right: auto;" />
+
+2. Add the template repository previously created as the starter code template.
+
+    <img src="/assets/images/GitHub_classroom_search_template.png" alt="GitHub_classroom_search_template" style="zoom:30%; display: block; margin-left: auto;  margin-right: auto;" />
+
+3. Optionally, add VS code as a supported editor (recommended).
+
+    <img src="/assets/images/GitHub_editor.png" alt="GitHub_editor" style="zoom:30%; display: block; margin-left: auto;  margin-right: auto;" />
+
+
+#### Add autograding
+
+1. Testing with the test scripts (sample tests) visible to the students (test.sh) - add a "Run command" test. You can award points as required.
+
+    <img src="/assets/images/Test_1.png" alt="Test_1" style="zoom:30%; display: block; margin-left: auto;  margin-right: auto;" />
+
+2. Hidden test cases: run Input/Output tests.
+
+    <img src="/assets/images/Test_2.png" alt="Test_2" style="zoom:30%; display: block; margin-left: auto;  margin-right: auto;" />
+
+
+    For more on autograding, read [this](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-autograding#inputoutput-test)
+
+4. Create the assignment and copy the invitation URL. Send it to all students either via Edmodo, email or for the TAs to update the portal.
+
+    <img src="/assets/images/GitHub_created.png" alt="GitHub_created" style="zoom:30%; display: block; margin-left: auto;  margin-right: auto;" />
